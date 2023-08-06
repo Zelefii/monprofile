@@ -1,0 +1,110 @@
+/* couleur et police de text */
+
+body {
+	background-color: rgb(241, 246, 249);
+	color: rgb(40, 40, 40);
+	font-family: 'Merriweather', serif;
+	font-size: 25px;
+	text-align: center;
+	
+}
+
+h1, h2, h3 {
+	color: rgb(57, 72, 103);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-size: 45px;
+	font-weight: 900;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+p {
+	color: rgb(24, 22, 22);
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	color: rgb(98, 144, 243);
+	font-weight: 700;
+	font-size: 17px;
+	transition: 350ms;
+}
+
+a:hover {
+	color: rgb(24, 22, 22);
+}
+
+
+/* gestion des box avec class*/
+
+.container {
+	width: 750px; /* largeur de la div auto par rapport à la page */
+	margin: 40px auto; /* marge de la div par rapport à la page 10px haut et bas gauche et droite centrée */
+	padding: 10px 0px;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.box-white {
+	background: rgb(255, 255, 255);
+	padding: 20px 10px;	
+	margin: 10px 0px;
+	box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-black {
+	background-color: rgb(98, 144, 243);
+	color: rgb(255, 255, 255);
+	padding: 10px 20px;
+	border-radius: 4px;
+}
+
+.btn-black:hover {
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 60px;
+}
+
+.list-inline i:hover {
+	color: black
+;}
+
